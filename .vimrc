@@ -16,6 +16,7 @@ call plug#begin()
 Plug 'cocopon/iceberg.vim'
 Plug 'tpope/vim-sensible'
 Plug 'dense-analysis/ale'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 
