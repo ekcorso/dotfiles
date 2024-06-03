@@ -42,7 +42,6 @@ set linebreak
 set nocompatible
 set number
 set showtabline=2
-set termguicolors
 
 " -------------------------
 " Vim plugin options
