@@ -24,7 +24,7 @@ if [ -n "$PS1" -a -n "$BASH_VERSION" ]; then source ~/.bashrc; fi
 eval "$(direnv hook bash)"
 
 # Aliases
-alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+alias dotfiles="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 alias ddd="rm -rf ~/Library/Developer/Xcode/DerivedData"
 
 # Add .ssh key to keychain
