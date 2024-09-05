@@ -1,5 +1,4 @@
 # Configure prompt and theme
-export SHELL="/opt/homebrew/bin/bash"
 eval "$(starship init bash)"
 
 # Bash completion
