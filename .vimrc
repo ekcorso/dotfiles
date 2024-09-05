@@ -52,6 +52,12 @@ let g:ale_completion_enabled = 1
 let g:ale_linters = {
 \ "python": ["mypy", "pylsp", "pylint"],
 \}
+
+let g:ale_fixers = {
+\   'python': ['black'],
+\}
+
+
 inoremap <silent><expr> <Tab> pumvisible() ? "\<C-n>" : "\<TAB>"
 inoremap <silent><expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-TAB>"
 " -------------------------
